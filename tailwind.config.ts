@@ -2,7 +2,7 @@ import type { Config } from 'tailwindcss'
 
 let brandConfig;
 if (process.env.VERSION) {
-  brandConfig = require(`./src/brands/${process.env.VERSION}/config`);
+  brandConfig = require(`./src/brands/${process.env.VERSION}`);
 }
 
 
