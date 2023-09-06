@@ -1,4 +1,7 @@
 import './globals.css'
+import "primereact/resources/primereact.min.css";
+import "primereact/resources/themes/lara-light-indigo/theme.css";     
+
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 

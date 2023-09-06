@@ -6,10 +6,10 @@ const rebo = {
         header: '#fff'
       },
       routes: [
-        { label: 'Home', path: '/public/home' },
-        { label: 'About Us', path: '/public/aboutUs' },
+        { label: 'Home', path: '/' },
+        { label: 'About Us', path: '/public/about-us' },
         { label: 'Tools', path: '/public/tools' },
-        { label: 'Contact Us', path: '/public/contactUs' },
+        { label: 'Contact Us', path: '/public/contact-us' },
       ],
 };
 export default rebo;

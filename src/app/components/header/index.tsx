@@ -2,8 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link'
 import configuration from '@/configuration';
-
-console.log('configuration', configuration)
+import Login from '@/app/public/login/page';
 
 const Header = () => {
     return (
@@ -24,7 +23,7 @@ const Header = () => {
               </Link>
           ))}
           </nav>
-          <a className="mr-5 hover:text-gray-900">Login</a>
+          <Login/>
           <button className="inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0">
             Sing Up
           </button>

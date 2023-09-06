@@ -5,9 +5,9 @@ const ttb = {
         header: '#09C5D1'
       },
     routes: [
-      { label: 'Home', path: '/public/home' },
-      { label: 'About Us', path: '/public/aboutUs' },
-      { label: 'Contact Us', path: '/public/contactUs' },
+      { label: 'Home', path: '/' },
+      { label: 'About Us', path: '/public/about-us' },
+      { label: 'Contact Us', path: '/public/contact-us' },
     ],
 };
 
