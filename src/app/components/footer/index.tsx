@@ -2,7 +2,10 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='text-black'>Footer</div>
+    <>
+      <header>header</header>
+      <footer>footer</footer>
+    </>
   )
 }
 
