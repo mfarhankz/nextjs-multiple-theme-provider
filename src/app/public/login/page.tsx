@@ -40,13 +40,13 @@ function Login() {
                         </button>
                     </div>
                     <hr className="mt-[20px]" />
-                    <div className="py-[20px] px-[2`0px]">
+                    <div className="py-[20px]">
                         <div className="flex">
                             <div className="w-1/2">
                                 <p className="text-sm font-sans">
                                     Password forgotten ?
                                 </p>
-                                <a className="text-sm font-sans flex hover:underline hover:underline-offset-8" href="#">
+                                <a className="text-sm font-sans flex hover:underline hover:underline-offset-4" href="#">
                                     Recover it now
                                     <span className="mt-1">
                                         <AiOutlineRight />
@@ -57,7 +57,7 @@ function Login() {
                                 <p className="text-sm font-sans">
                                     Don,t have an account ?
                                 </p>
-                                <a className="text-sm font-sans flex hover:underline hover:underline-offset-8" href="#">
+                                <a className="text-sm font-sans flex hover:underline hover:underline-offset-4" href="#">
                                     Get started right now
                                     <span className="mt-1">
                                         <AiOutlineRight />
