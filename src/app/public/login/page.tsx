@@ -36,7 +36,7 @@ function Login() {
                             <input type="password" placeholder="Password" className="px-5 lg:text-[15px] sm:text-xs leading-none py-2 mt-1 border-2 rounded-lg border-slate-200 w-full font-sans " />
                         </form>
                         <button className="font-sans text-center w-full bg-[#3ca87a] px-[6px] py-[9px] rounded text-white hover:bg-[#52CC98]">
-                            Login
+                            Login.
                         </button>
                     </div>
                     <hr className="mt-[20px]" />
