@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import { Config } from 'tailwindcss'
 
 let brandConfig;
 if (process.env.VERSION) {
@@ -6,7 +6,7 @@ if (process.env.VERSION) {
 }
 
 
-const config: Config = {
+const config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
