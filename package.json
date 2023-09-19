@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "ttb": "VERSION=ttb next dev -p 3000",
-    "rebo": "VERSION=rebo next dev -p 3000",
+    "ttb": "cross-env NEXT_PUBLIC_VERSION=ttb next dev -p 3000",
+    "rebo": "cross-env NEXT_PUBLIC_VERSION=rebo next dev -p 3000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.15",
+    "cross-env": "^7.0.3",
     "postcss": "^8.4.30",
     "tailwindcss": "^3.3.3"
   }
