@@ -4,7 +4,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-      <header className='bg-blue-500 lg:h-[625px] md:h-[420px] h-[580px]'>
+      {/* <header className='bg-blue-500 lg:h-[625px] md:h-[420px] h-[580px]'>
         <div className='text-center flex justify-center'>
           <div className='lg:w-7/12 w-full lg:mt-[120px] md:mt-[120px] mt-[20px]'>
             <h2 className='lg:text-[50px] text-[36px] text-white'>
@@ -18,8 +18,21 @@ function Footer() {
             </button>
           </div>
         </div>
+      </header> */}
+      <header>
+        <div className="container px-40">
+          <div className="row-flex">
+            <div className='w-1/2'>
+              <div>
+                <div className='bg-[#F8FAE7]'>
+                  TALKING INTELLIGENCE 👌🏻
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </header>
-      <footer>
+      {/* <footer>
         <div className='grid grid-cols-2 gap-3 md:text-center'>
           <div>
             <div className=''>
@@ -49,7 +62,7 @@ function Footer() {
           <div>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </>
   )
 }
