@@ -1,4 +1,7 @@
+"use client"
+
 import React from 'react'
+import { Button } from 'primereact/button';
 import Header from '../components/header'
 
 function Dashboard() {
@@ -6,7 +9,15 @@ function Dashboard() {
     <>
       <Header />
       <h1>Dashboard</h1>
-      <button className="bg-primary px-5 py-2 text-sm leading-5 rounded-full font-semibold text-white">Primary Button</button>
+      <div>
+      <Button label="Primary" />
+      <Button label="Secondary" severity="secondary" />
+      <Button label="Success" severity="success" />
+      <Button label="Info" severity="info" />
+      <Button label="Warning" severity="warning" />
+      <Button label="Help" severity="help" />
+      <Button label="Danger" severity="danger" />
+      </div>
     </>
   )
 }

@@ -1,8 +1,22 @@
 {
-    "cSpell.words": [
-        "nextjs",
-        "primereact",
-        "rebo",
-        "tailwindcss"
-    ]
+    "window.zoomLevel": 0,
+    "explorer.confirmDelete": false,
+    "workbench.tree.indent": 16,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.tabSize": 2,
+    "editor.lineHeight": 26,
+    "explorer.confirmDragAndDrop": false,
+    "editor.fontSize": 15,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.fontLigatures": true,
+    "tailwindCSS.emmetCompletions": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.quickSuggestions": {
+       "strings": true
+    },
+    "css.validate": false,
+    "CodeGPT.model": "CodeGPT Plus",
+    "CodeGPT.apiKey": "CodeGPT Plus",
 }

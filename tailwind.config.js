@@ -13,6 +13,13 @@ const config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    colors: {
+      primary: brandConfig.colors.primary,
+      secondary: brandConfig.colors.secondary,
+      header: brandConfig.colors.header,
+      black: '#000',
+      white: '#fff',
+    },
     screens: {
       sm: '480px',
       md: '768px',
@@ -24,13 +31,6 @@ const config = {
       serif: ['Merriweather', 'serif'],
     },
     extend: {
-      colors: {
-        primary: brandConfig.colors.primary,
-        secondary: brandConfig.colors.secondary,
-        header: brandConfig.colors.header,
-        black: '#000',
-        white: '#fff',
-      },
       spacing: {
         '128': '32rem',
         '144': '36rem',
