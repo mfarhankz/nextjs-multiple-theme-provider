@@ -1,9 +1,7 @@
 const ttb = {
-    colors: {
-        primary: '#089ea8',
-        secondary: '#00ff00',
-        header: '#089ea8'
-      },
+    primary: '#089ea8',
+    secondary: '#00ff00',
+    header: 'yellow',  
     routes: [
       { label: 'Home', path: '/' },
       { label: 'About Us', path: '/public/about-us' },
