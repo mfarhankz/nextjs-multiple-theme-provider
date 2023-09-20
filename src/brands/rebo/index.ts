@@ -1,25 +1,18 @@
 const rebo = {
-  colors: {
-    primary: {
-      100: "#FFAABB",
-      200: "#FF8899",
-      // Define more shades as needed
-    },
-    secondary: {
-      100: "#AABBFF",
-      200: "#8899FF",
-      // Define more shades as needed
-    },
-    header: {
-      100: "#F59E0B",
-      200: "#fcfcfc",
-      // Define more shades as needed
-    },
-  },
-  routes: [
+  primary: "#089ea8",
+  secondary: "#00ff00",
+  header: "yellow",
+  routesPublic: [
     { label: "Home", path: "/" },
     { label: "About Us", path: "/public/about-us" },
-    { label: "Tools", path: "/public/tools" },
+    { label: "Contact Us", path: "/public/contact-us" },
+  ],
+  routesAdmin: [
+    { label: "Home", path: "/" },
+    { label: "About Us", path: "/public/about-us" },
+    { label: "Contact Us", path: "/public/contact-us" },
+    { label: "Contact Us", path: "/public/contact-us" },
+    { label: "Contact Us", path: "/public/contact-us" },
     { label: "Contact Us", path: "/public/contact-us" },
   ],
 };

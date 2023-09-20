@@ -34,7 +34,7 @@ function Header() {
               id="navbar-dropdown"
             >
               <ul className="flex flex-col p-4 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                <li>
+                {/* <li>
                   <a
                     href="#"
                     className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent"
@@ -42,8 +42,16 @@ function Header() {
                   >
                     Home
                   </a>
-                </li>
-                <li>
+                </li> */}
+                {configuration.routesAdmin.map((item: { label: string; path: string }) => (
+                  // eslint-disable-next-line react/jsx-key
+                  <li>
+                    <Link href={item.path} key={item.path} className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent">
+                    {item.label}
+                  </Link>
+                  </li>
+                ))}
+                {/* <li>
                   <button
                     id="dropdownNavbarLink"
                     data-dropdown-toggle="dropdownNavbar"
@@ -118,7 +126,7 @@ function Header() {
                   >
                     Contact
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
