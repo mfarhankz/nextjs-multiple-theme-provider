@@ -10,6 +10,7 @@ function Dashboard() {
       <Header />
       <h1>Dashboard</h1>
       <div>
+      <Button label="Submit" />
       <Button label="Primary" />
       <Button label="Secondary" severity="secondary" />
       <Button label="Success" severity="success" />
