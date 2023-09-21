@@ -10,7 +10,7 @@ function Header() {
     <>
       <header className="shadow-xl bg-header">
         <nav className="border-gray-200">
-          <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2.5">
+          <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2.2">
             <Link href="/dashboard" className="flex items-center">
               <Image
                 src={configuration?.logo}
@@ -29,12 +29,12 @@ function Header() {
               <span className="sr-only">Open main menu</span>
             </button>
 
-            <div className="hidden w-full md:block md:w-auto" id="navbar-dropdown">
-              <ul className="flex flex-col p-4 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <div className="hidden w-full md:block md:w-auto">
+              <ul className="flex flex-col p-4 mt-4 font-medium bg-transparent border md:flex-row md:space-x-8 md:mt-0 md:text-sm md:border-0">
                 {configuration.routesAdmin.map((item: { label: string; path: string }) => (
                   // eslint-disable-next-line react/jsx-key
                   <li>
-                    <Link href={item.path} key={item.path} className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent">
+                    <Link href={item.path} key={item.path} className="block py-2 pl-3 pr-4 text-gray-800">
                     {item.label}
                   </Link>
                   </li>

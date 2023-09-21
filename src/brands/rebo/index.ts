@@ -1,7 +1,7 @@
 const rebo = {
   primary: "#089ea8",
   secondary: "#00ff00",
-  header: "yellow",
+  header: "#ffffff",
   routesPublic: [
     { label: "Home", path: "/" },
     { label: "About Us", path: "/public/about-us" },
