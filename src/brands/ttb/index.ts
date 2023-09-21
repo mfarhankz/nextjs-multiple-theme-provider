@@ -3,31 +3,31 @@ const ttb = {
   secondary: "#00ff00",
   header: "#6366F1",
   routesPublic: [
-    { label: "Home", path: "/" },
-    { label: "About Us", path: "/public/about-us" },
-    { label: "Contact Us", path: "/public/contact-us" },
+    { label: "Home", url: "/" },
+    { label: "About Us", url: "/public/about-us" },
+    { label: "Contact Us", url: "/public/contact-us" },
   ],
   routesAdmin: [
-    { label: "Property Search", path: "/admin/dashboard" },
-    { label: "Farming", path: "/admin/dashboard", childern: [
-        { label: "Radius Search", path: "/admin/dashboard" },
-        { label: "Boundary Search", path: "/admin/dashboard" },
-        { label: "Area Search", path: "/admin/dashboard" },
-        { label: "Clear Search", path: "/admin/dashboard" },
-        { label: "Saved Farms", path: "/admin/dashboard" },
-        { label: "Saved Searches", path: "/admin/dashboard" },
-        { label: "Saved Net Sheets", path: "/admin/dashboard" },
-        { label: "Upload", path: "/admin/dashboard" },
+    { label: "Property Search", url: "/dashboard" },
+    { label: "Farming", items: [
+        { label: "Radius Search", url: "/dashboard" },
+        { label: "Boundary Search", url: "/dashboard" },
+        { label: "Area Search", url: "/dashboard" },
+        { label: "Clear Search", url: "/dashboard" },
+        { label: "Saved Farms", url: "/dashboard" },
+        { label: "Saved Searches", url: "/dashboard" },
+        { label: "Saved Net Sheets", url: "/dashboard" },
+        { label: "Upload", url: "/dashboard" },
     ]
     },
-    { label: "Statistics", path: "/admin/dashboard", childern: [
-        { label: "Radius Search", path: "/admin/dashboard" },
-        { label: "Boundary Search", path: "/admin/dashboard" },
-        { label: "Area Search", path: "/admin/dashboard" },
-        { label: "Clear Search", path: "/admin/dashboard" },
+    { label: "Statistics", items: [
+        { label: "Radius Search", url: "/dashboard" },
+        { label: "Boundary Search", url: "/dashboard" },
+        { label: "Area Search", url: "/dashboard" },
+        { label: "Clear Search", url: "/dashboard" },
         
     ] },
-    { label: "Buyer Cost Estimate", path: "/admin/dashboard" },
+    { label: "Buyer Cost Estimate", url: "/dashboard" },
   ],
 };
 
