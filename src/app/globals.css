@@ -16,5 +16,14 @@
 }
 
 body {
+      background-color: #ffffff;
+    background-image: url(https://aichatbot.liquid-themes.com/wp-content/uploads/2023/05/line-bg.svg);
+    background-position: top left;
   /* color: rgb(var(--foreground-rgb)); */
+}
+.header{
+  background-color: #FAFAFA80;
+    background-image: url(http://aichatbot.liquid-themes.com/wp-content/uploads/2023/05/rings.png);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
 }

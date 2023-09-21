@@ -6,45 +6,51 @@ import Login from '@/app/public/login/page';
 
 const Header = () => {
   return (
-    <header className="flex flex-wrap lg:px-32 justify-start sm:flex-nowrap z-50 w-full text-sm mt-10 py-[10px] px-12">
-      <nav className="max-w-[85rem] w-full mr-10 flex lg:justify-around sm:items-center justify-between" aria-label="Global">
-        <div className="flex items-center justify-between">
-          <a className="flex title-font w-40 font-medium items-center text-gray-900">
-            <Image src={configuration.logo} alt="Brand Logo" width={190} height={50} />
-          </a>
+    <header>
+      <div className="header lg:px-32 lg:py-10">
+        <div className=' lg:flex'>
+          <div className='lg:w-1/2 w-full p-4'>
+            <div className='py-4 flex justify-center lg:justify-normal'>
+              <div className='bg-[#F8FAE7] py-1 px-5 text-[13px]  drop-shadow-md rounded-full flex justify-center '>
+                TALKING INTELLIGENCE 👌🏻
+              </div>
+            </div>
+            <div className='w-full p-4 '>
+              <h1 className='lg:text-7xl md:text-7xl text-5xl lg:text-start text-center font-semibold text-sky-950'>
+                Talking Code, Unlimited Chat.
+              </h1>
+            </div>
+            <div>
+              <p className='text-slate-500 text-xl mt-3 lg:text-start text-center'>
+                Equipped with human-like intelligence, our chatbots establish fluent and interactive dialogues.
+              </p>
+            </div>
+            <div className='flex justify-center lg:justify-normal'>
+              <div className='gap-5 md:flex mt-7'>
+                <button className='py-[18px] flex px-[30px] hover:bg-opacity-95 mt-3 bg-blue-950 text-white rounded-full'>
+                  <p className='text-sm'>Get Started</p>
+                  <svg className='mt-1 ml-3 h-3' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" fill='#fff' /></svg>
+                </button>
+                <button className='py-[18px] flex px-[30px] hover:border-2  mt-3 hover:border-blue-950 text-blue-950 bg-white rounded-full'>
+                  <p className='text-sm'>Explore Hub</p>
+                  <svg className='mt-1 ml-3 h-3' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" /></svg>
+                </button>
+              </div>
+            </div>
+            <div>
+              <p className='text-xs text-center lg:text-start mt-7 ms-5 font-light text-gray-400'>
+                Try for free. No credit card required.
+              </p>
+            </div>
 
-        </div>
-        <div id="navbar-with-collapse" className="hidden basis-full grow lg:block">
-          <div className="flex sm:flex-row sm:items-center sm:justify-end md:justify-between sm:mt-0 sm:pl-5">
-            <div className='flex items-end ms-6'>
-              <a className="font-light lg:pr-10 text-[#272657] text-1xl" href="#" aria-current="page">Home</a>
-              <a className="font-light lg:pr-10 text-[#272657] text-1xl" href="#">Features<span className="bg-[#EB9AA029] text-[#EB9AA0] ms-2 text-xs font-medium  px-3 py-1 rounded">New</span></a>
-              <a className="font-light lg:pr-10 text-[#272657] text-1xl" href="#">Process</a>
-              <a className="font-light lg:pr-10 text-[#272657] text-1xl" href="#">Pricing</a>
-              <a className="font-light lg:pr-10 text-[#272657] text-1xl" href="#">Blog</a>
-            </div>
-            <div className='flex'>
-              <button className="flex justify-center items-center py-1 px-3 hover:border  hover:border-black rounded-full text-normal w-[90px]">
-                Log in
-              </button>
-              <button className="items-center justify-center bg-[#E7F8F8] text-[#5EE9E8] py-1 px-3 hover:border-2 hover:border-[#5EE9E8] rounded-full w-[200px] h-[50px] text-normal">
-                Join the Community
-              </button>
-            </div>
+          </div>
+          <div className='lg:w-1/2 w-full flex lg:items-center justify-center md:mt-5'>
+            <img className='h-96 w-144' src="./ipad.png" alt="" />
           </div>
         </div>
-        <div className='flex items-center'>
-          <button type="button" className="hs-collapse-toggle lg:hidden p-2 inline-flex gap-2 rounded-md font-medium bg-white text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none item-ceter focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800 ps-auto" data-hs-collapse="#navbar-with-collapse" aria-controls="navbar-with-collapse" aria-label="Toggle navigation">
-            <svg className="hs-collapse-open:hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-            </svg>
-            <svg className="hs-collapse-open:block hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-              <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
-            </svg>
-          </button>
-        </div>
-      </nav>
-    </header >
+
+      </div>
+    </header>
   )
 }
 
