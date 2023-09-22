@@ -45,7 +45,7 @@ const Header = () => {
 
           </div>
           <div className='lg:w-1/2 w-full flex lg:items-center justify-center md:mt-5'>
-            <img className='h-96 w-144' src="./ipad.png" alt="" />
+            <img className='h-96 w-144' src="./ipad.png" alt="" />÷
           </div>
         </div>
 

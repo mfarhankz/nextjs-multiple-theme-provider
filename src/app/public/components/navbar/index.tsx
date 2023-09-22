@@ -16,7 +16,7 @@ const Navbar = () => {
         </div>
         <div id="navbar-with-collapse" className="hidden basis-full grow lg:block">
           <div className="flex sm:flex-row sm:items-center sm:justify-end md:justify-between sm:mt-0 sm:pl-5">
-            <div className='flex items-end ms-6'>
+            <div className='flex items-end ms-6 lg:mt-5'>
               <a className="font-light lg:pr-10 text-[#272657] text-1xl" href="#" aria-current="page">Home</a>
               <a className="font-light lg:pr-10 text-[#272657] text-1xl" href="#">Features<span className="bg-[#EB9AA029] text-[#EB9AA0] ms-2 text-xs font-medium  px-3 py-1 rounded">New</span></a>
               <a className="font-light lg:pr-10 text-[#272657] text-1xl" href="#">Process</a>
