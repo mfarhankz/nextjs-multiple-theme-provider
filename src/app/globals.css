@@ -27,4 +27,9 @@ body {
     background-position: 100% 0;
     background-repeat: no-repeat;
 }
-
+.feature{
+     background-image: url(http://aichatbot.liquid-themes.com/wp-content/uploads/2023/05/drawing.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white
+}

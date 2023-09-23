@@ -11,7 +11,7 @@ const Header = () => {
         <div className=' lg:flex'>
           <div className='lg:w-1/2 w-full p-4'>
             <div className='py-4 flex justify-center lg:justify-normal'>
-              <div className='bg-[#F8FAE7] py-1 px-5 text-[13px]  drop-shadow-md rounded-full flex justify-center '>
+              <div className='bg-[#F8FAE7] py-1 px-5 text-[13px] text-blue-950 drop-shadow-md rounded-full flex justify-center '>
                 TALKING INTELLIGENCE 👌🏻
               </div>
             </div>
