@@ -7,7 +7,7 @@ import Login from '@/app/public/login/page';
 const Header = () => {
   return (
     <section>
-      <div className="header lg:px-32 lg:pb-16 pt-5">
+      <div className="header lg:px-32 lg:pb-16 pt-5 lg:h-screen">
         <div className='lg:mb-20 lg:flex'>
           <div className='w-full p-4 pl-0 lg:w-1/2'>
             <div className='flex justify-center py-4 lg:justify-normal'>
@@ -15,14 +15,18 @@ const Header = () => {
                 TALKING INTELLIGENCE 👌🏻
               </div>
             </div>
-            <div className='w-full p-4 pl-0'>
+            <div className='w-full px-10 p-4 pl-0'>
               <h1 className='text-5xl font-semibold text-center lg:text-7xl md:text-7xl lg:text-start text-sky-950'>
-                Talking Code, Unlimited Chat.
+                Work<br />
+                <span className='before:block before:absolute before:-inset-[-8px] before:-skew-y-0 before:border-b-[24px] before:border-b-pink-200 relative'>
+                  <span className="relative">Smarter</span>
+                </span><br />
+                not harder!
               </h1>
             </div>
             <div>
               <p className='mt-3 text-xl text-center text-slate-500 lg:text-start'>
-                Equipped with human-like intelligence, our chatbots establish fluent and interactive dialogues.
+                ReboGateway offers fresh and unique ideas that will undoubtedly create a new path and source of revenue for your business.
               </p>
             </div>
             <div className='flex justify-center lg:justify-normal'>
@@ -31,7 +35,7 @@ const Header = () => {
                   <p className='text-sm'>Get Started</p>
                   <svg className='h-3 mt-1 ml-3' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" fill='#fff' /></svg>
                 </button>
-                <button className='py-[18px] flex px-[30px] hover:border-2  mt-3 hover:border-blue-950 text-blue-950 bg-white rounded-full'>
+                <button className='py-[18px] flex px-[30px] hover:border-2 border-2 border-white  mt-3 hover:border-blue-950 text-blue-950 bg-white rounded-full'>
                   <p className='text-sm'>Explore Hub</p>
                   <svg className='h-3 mt-1 ml-3' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" /></svg>
                 </button>

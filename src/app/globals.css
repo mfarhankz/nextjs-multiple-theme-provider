@@ -24,8 +24,9 @@ body {
 .header{
   background-color: #FAFAFA80;
     background-image: url(http://aichatbot.liquid-themes.com/wp-content/uploads/2023/05/rings.png);
-    background-position: 100% 150px;
+    background-position: 105% 105%;
     background-repeat: no-repeat; 
+    background-size: 30%;
 }
 .feature{
      background-image: url(http://aichatbot.liquid-themes.com/wp-content/uploads/2023/05/drawing.svg);
