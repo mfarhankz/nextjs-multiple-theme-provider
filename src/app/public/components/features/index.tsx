@@ -7,15 +7,15 @@ import Login from '@/app/public/login/page';
 const Features = () => {
   return (
     <>
-      <section className="feature py-[100px] px-[10px] text-gray-600">
-        <div className="p-[10px] lg:px-36">
+      <section className="container mx-auto feature py-[100px] text-gray-600">
+        <div>
           <div>
             <div className='bg-[#F8FAE7] mb-9 w-32 text-blue-950 font-medium py-1 px-5 text-[13px] drop-shadow-md rounded-full '>
               AI POWERED
             </div>
           </div>
           <div className='lg:flex '>
-            <div className='md:w-full mt-3'>
+            <div className='mt-3 md:w-full'>
               <h1 className='text-[#272657]  text-[52px] font-medium leading-none'>
                 Our powerfull chatbot solutions
               </h1>
@@ -27,10 +27,10 @@ const Features = () => {
             </div>
           </div>
         </div>
-        <div className="container mx-auto  lg:px-28">
+        <div className="mt-10">
           <div className="flex flex-wrap">
-            <div className="lg:w-1/3 md:w-1/2 w-full">
-              <div className=" hover:border-1 hover:drop-shadow-lg hover:bg-white border-0 rounded-2xl ">
+            <div className="w-full lg:w-1/3 md:w-1/2">
+              <div className="border-0 hover:border-1 hover:drop-shadow-lg hover:bg-white rounded-2xl">
                 <div className="p-7">
                   <div className='bg-[#79E2E629] h-[60px] w-[60px] flex justify-center rounded-full items-center'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><g clip-path="url(#clip0_212_180)">
@@ -55,8 +55,8 @@ const Features = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/3 md:w-1/2 w-full">
-              <div className=" hover:border-1 hover:drop-shadow-lg hover:bg-white border-0 rounded-2xl ">
+            <div className="w-full lg:w-1/3 md:w-1/2">
+              <div className="border-0 hover:border-1 hover:drop-shadow-lg hover:bg-white rounded-2xl">
                 <div className="p-7">
                   <div className='bg-[#DEEFAC3D] h-[60px] w-[60px] flex justify-center rounded-full items-center'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><g clip-path="url(#clip0_212_180)">
@@ -81,8 +81,8 @@ const Features = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/3 md:w-1/2 w-full">
-              <div className=" hover:border-1 hover:drop-shadow-lg hover:bg-white border-0 rounded-2xl ">
+            <div className="w-full lg:w-1/3 md:w-1/2">
+              <div className="border-0 hover:border-1 hover:drop-shadow-lg hover:bg-white rounded-2xl">
                 <div className="p-7">
                   <div className='bg-[#F9A6CE29] h-[60px] w-[60px] flex justify-center rounded-full items-center'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><g clip-path="url(#clip0_212_180)">
@@ -112,15 +112,15 @@ const Features = () => {
       </section>
       <section className='lg:px-[180px] pb-[180px]'>
         <div className='lg:flex'>
-          <div className='p-3 w-full lg:w-1/2'>
+          <div className='w-full p-3 lg:w-1/2'>
             <img src="speech-on-human.png" alt="" />
           </div>
-          <div className='lg:w-1/2 p-3 mt-9'>
+          <div className='p-3 lg:w-1/2 mt-9'>
             <div>
               <div className='bg-[#F8FAE7] mb-12 w-36 text-blue-950 font-medium py-1 px-5 text-[13px] drop-shadow-md rounded-full '>
                 WHO WE ARE?
               </div>
-              <div className='md:w-full mb-12'>
+              <div className='mb-12 md:w-full'>
                 <h1 className='text-[#272657]  text-[52px] font-medium leading-none'>
                   Leading with innovative solution.
                 </h1>
@@ -140,7 +140,7 @@ const Features = () => {
             </div>
           </div>
         </div>
-        <div className='text-center py-10'>
+        <div className='py-10 text-center'>
           <span className='text-[#5EE9E8] bg-[#E3F8F8] text-sm px-5 py-2 rounded-3xl'>Contact</span>
           <span className='text-sm text-[#64607D] font-extralight ms-3'>Looking for a chatbot solution?</span>
           <a className='text-sm font-light ms-1 underline text-[#272657]' href="#">Contact us</a>
