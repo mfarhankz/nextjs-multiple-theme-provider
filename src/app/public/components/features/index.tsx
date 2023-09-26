@@ -147,7 +147,7 @@ const Features = () => {
         </div>
       </section>
       <section className='plans pt-36'>
-        <div>
+        <div className='container mx-auto lg:flex '>
           <div className='w-[348px] p-[10px]'>
             <div>
               <h1 className='text-[#272657]  text-[52px] font-medium leading-none'>
@@ -156,6 +156,16 @@ const Features = () => {
             </div>
             <div>
               <img src="./credit-card.png" alt="" />
+            </div>
+          </div>
+          <div>
+            <div className='w-[348px] p-[10px] bg'>
+              <div>
+                <h3 className='mt-8'>
+                  Basic Plan
+                </h3>
+              </div>
+
             </div>
           </div>
         </div>
