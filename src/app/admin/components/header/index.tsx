@@ -15,7 +15,7 @@ function Header() {
       <header className="shadow-xl bg-header">
         <nav className="border-gray-200">
           <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2.2">
-            <Menubar model={configuration.routesAdmin} start={start} end={end} />
+            <Menubar model={configuration.routesAdmin} start={start} end={end} className="w-full bg-transparent border-0" />
           </div>
         </nav>
       </header>
