@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link'
@@ -17,7 +18,9 @@ const Features = () => {
           <div className='lg:flex '>
             <div className='mt-3 md:w-full'>
               <h1 className='text-[#272657]  text-[52px] font-medium leading-none'>
-                Our powerfull chatbot solutions
+                Our <span className='before:block before:absolute before:-inset-[-2px] before:-skew-y-0 before:border-b-[20px] before:border-b-pink-200 relative'>
+                  <span className="relative"> powerfull</span>
+                </span> chatbot solutions
               </h1>
             </div>
             <div className='flex md:w-full mt-3 items-start lg:ms-16 lg:mb-12 text-[#64607D] text-xl font-light'>
@@ -356,7 +359,10 @@ const Features = () => {
               </div>
               <div className='mb-12 md:w-full'>
                 <h1 className='text-[#272657]  text-[52px] font-medium leading-none'>
-                  Leading with innovative solution.
+                  <span className='before:block before:absolute before:-inset-[-8px] before:-skew-y-0 before:border-b-[24px] before:border-b-pink-200 relative'>
+                    <span className="relative">Leadingwith</span><br />
+                  </span>
+                  innovative solution.
                 </h1>
               </div>
               <div className='flex md:w-full mb-12 items-start lg:mb-12 text-[#64607D] text-xl font-light'>
@@ -380,67 +386,128 @@ const Features = () => {
           <a className='text-sm font-light ms-1 underline text-[#272657]' href="#">Contact us</a>
         </div>
       </section>
-      <section className='plans pt-36'>
+      <section className='plans py-36'>
         <div className='container mx-auto '>
           <div className='grid lg:grid-cols-3 mx-5'>
-            <div className="w-full xl:w-[400px] lg:w-[300px]  p-4 px-12 bg-white border border-gray-200 rounded-2xl shadow sm:p-8">
+            <div className="w-full xl:w-[400px] lg:w-[300px] mt-4 p-4 lg:ms-8 px-12 bg-white border border-gray-200 rounded-2xl shadow sm:p-8">
               <h5 className="mb-4 text-[22px] font-medium text-pink-400">Basic Plan</h5>
+              <div className="flex items-baseline text-gray-900">
+                <span className="text-5xl font-medium">$</span>
+                <span className="text-5xl font-medium tracking-tight">29</span>
+                <span className="ml-1 text-[15px] font-light text-[#27265766]">/month</span>
+              </div>
+              <p className='text-[15px] font-light text-[#27265766] my-5 '>
+                The cheapest way to get started.
+              </p>
+              <ul role="list" className="space-y-5 my-7">
+                <li className="flex space-x-3 mb-5 items-center">
+                  <div className='bg-[#F9A6CE29] h-[26px] w-[26px] flex text-center justify-center rounded-full pt-1'>
+                    <svg xmlns="http://www.w3.org/2000/svg" className='h-3 w-3 mt-1 text-base' viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" fill='#F070AE' /></svg>
+                  </div>
+                  <span className="text-[17px] font-semibold leading-tight text-[#272657]">300 Words</span>
+                </li>
+                <li className="flex space-x-3 mb-5 items-center">
+                  <div className='bg-[#F9A6CE29] h-[26px] w-[26px] flex text-center justify-center rounded-full pt-1'>
+                    <svg xmlns="http://www.w3.org/2000/svg" className='h-3 w-3 mt-1 text-base' viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" fill='#F070AE' /></svg>
+                  </div>
+                  <span className="text-[17px] font-semibold leading-tight text-[#272657]">Limited Use</span>
+                </li>
+                <li className="flex space-x-3 mb-5 items-center">
+                  <div className='bg-[#F9A6CE29] h-[26px] w-[26px] flex text-center justify-center rounded-full pt-1'>
+                    <svg xmlns="http://www.w3.org/2000/svg" className='h-3 w-3 mt-1 text-base' viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" fill='#F070AE' /></svg>
+                  </div>
+                  <span className="text-[17px] font-semibold leading-tight text-[#272657]">Volume Based Pricing</span>
+                </li>
+                <li className="flex space-x-3 mb-5 items-center opacity-25">
+                  <div className='bg-[#F9A6CE29] h-[26px] w-[26px] flex text-center justify-center rounded-full pt-1'>
+                    <svg xmlns="http://www.w3.org/2000/svg" className='h-3 w-3 mt-1 text-base' viewBox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z" fill='#F070AE' /></svg>
+                  </div>
+                  <span className="text-[17px] font-semibold leading-tight text-[#272657]">Analytics and Reporting</span>
+                </li>
+              </ul>
+              <button type="button" className="text-[#F070A4] bg-[#F9A6CE66] hover:bg-pink-100 font-semibold rounded-3xl text-[17px] px-5 py-3 inline-flex justify-center w-full text-center">Choose plan</button>
+            </div>
+            <div className="w-full xl:w-[400px] lg:w-[300px] mt-4 p-4 lg:ms-8 px-12 bg-white border border-gray-200 rounded-2xl shadow sm:p-8">
+              <h5 className="mb-4 text-[22px] font-medium text-[#272657]">Standart Plan</h5>
               <div className="flex items-baseline text-gray-900">
                 <span className="text-5xl font-medium">$</span>
                 <span className="text-5xl font-medium tracking-tight">49</span>
                 <span className="ml-1 text-[15px] font-light text-[#27265766]">/month</span>
               </div>
-              <p className='text-[15px] font-light text-[#27265766] my-5 text-center'>
-                The cheapest way to get started.
+              <p className='text-[15px] font-light text-[#27265766] my-5'>
+                The most popular plan.
               </p>
               <ul role="list" className="space-y-5 my-7">
-                <li className="flex space-x-3 items-center">
-                  <svg className="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                  </svg>
-                  <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">2 team members</span>
+                <li className="flex space-x-3 mb-5 items-center">
+                  <div className='bg-gray-300 h-[26px] w-[26px] flex text-center justify-center rounded-full pt-1'>
+                    <svg xmlns="http://www.w3.org/2000/svg" className='h-3 w-3 mt-1 text-base' viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" /></svg>
+                  </div>
+                  <span className="text-[17px] font-semibold leading-tight text-[#272657]">300 Words</span>
                 </li>
-                <li className="flex space-x-3">
-                  <svg className="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                  </svg>
-                  <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">20GB Cloud storage</span>
+                <li className="flex space-x-3 mb-5 items-center">
+                  <div className='bg-gray-300 h-[26px] w-[26px] flex text-center justify-center rounded-full pt-1'>
+                    <svg xmlns="http://www.w3.org/2000/svg" className='h-3 w-3 mt-1 text-base' viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" /></svg>
+                  </div>
+                  <span className="text-[17px] font-semibold leading-tight text-[#272657]">Limited Use</span>
                 </li>
-                <li className="flex space-x-3">
-                  <svg className="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                  </svg>
-                  <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Integration help</span>
+                <li className="flex space-x-3 mb-5 items-center">
+                  <div className='bg-gray-300 h-[26px] w-[26px] flex text-center justify-center rounded-full pt-1'>
+                    <svg xmlns="http://www.w3.org/2000/svg" className='h-3 w-3 mt-1 text-base' viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" /></svg>
+                  </div>
+                  <span className="text-[17px] font-semibold leading-tight text-[#272657]">Volume Based Pricing</span>
                 </li>
-                <li className="flex space-x-3 line-through decoration-gray-500">
-                  <svg className="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                  </svg>
-                  <span className="text-base font-normal leading-tight text-gray-500">Sketch Files</span>
-                </li>
-                <li className="flex space-x-3 line-through decoration-gray-500">
-                  <svg className="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                  </svg>
-                  <span className="text-base font-normal leading-tight text-gray-500">API Access</span>
-                </li>
-                <li className="flex space-x-3 line-through decoration-gray-500">
-                  <svg className="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                  </svg>
-                  <span className="text-base font-normal leading-tight text-gray-500">Complete documentation</span>
-                </li>
-                <li className="flex space-x-3 line-through decoration-gray-500">
-                  <svg className="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                  </svg>
-                  <span className="text-base font-normal leading-tight text-gray-500">24×7 phone & email support</span>
+                <li className="flex space-x-3 mb-5 items-center disabled:opacity-75">
+                  <div className='bg-gray-300 h-[26px] w-[26px] flex text-center justify-center rounded-full pt-1'>
+                    <svg xmlns="http://www.w3.org/2000/svg" className='h-3 w-3 mt-1 text-base' viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" /></svg>
+                  </div>
+                  <span className="text-[17px] font-semibold leading-tight text-[#272657]">Analytics and Reporting</span>
                 </li>
               </ul>
-              <button type="button" className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose plan</button>
+              <button type="button" className="text-white bg-[#272657] hover:bg-[#36355f] font-semibold rounded-3xl text-[17px] px-5 py-3 inline-flex justify-center w-full text-center">Choose plan</button>
+            </div>
+            <div className="w-full xl:w-[400px] lg:w-[300px] mt-4 p-4 lg:ms-8 bg-white border border-gray-200 rounded-2xl shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+              <h5 className="mb-4 text-[22px] font-medium text-blue-500">Standart Plan</h5>
+              <div className="flex items-baseline text-white">
+                <span className="text-5xl font-medium">$</span>
+                <span className="text-5xl font-medium tracking-tight">49</span>
+                <span className="ml-1 text-[15px] font-light text-gray-400">/month</span>
+              </div>
+              <p className='text-[15px] font-light text-gray-400 my-5'>
+                The most popular plan.
+              </p>
+              <ul role="list" className="space-y-5 my-7">
+                <li className="flex space-x-3 mb-5 items-center">
+                  <div className='bg-blue-200 h-[26px] w-[26px] flex text-center justify-center rounded-full pt-1'>
+                    <svg xmlns="http://www.w3.org/2000/svg" className='h-3 w-3 mt-1 text-base' viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" fill='#3B82F6' /></svg>
+                  </div>
+                  <span className="text-[17px] font-semibold leading-tight text-blue-500">300 Words</span>
+                </li>
+                <li className="flex space-x-3 mb-5 items-center">
+                  <div className='bg-blue-200 h-[26px] w-[26px] flex text-center justify-center rounded-full pt-1'>
+                    <svg xmlns="http://www.w3.org/2000/svg" className='h-3 w-3 mt-1 text-base' viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" fill='#3B82F6' /></svg>
+                  </div>
+                  <span className="text-[17px] font-semibold leading-tight text-blue-500">Limited Use</span>
+                </li>
+                <li className="flex space-x-3 mb-5 items-center">
+                  <div className='bg-blue-200 h-[26px] w-[26px] flex text-center justify-center rounded-full pt-1'>
+                    <svg xmlns="http://www.w3.org/2000/svg" className='h-3 w-3 mt-1 text-base' viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" fill='#3B82F6' /></svg>
+                  </div>
+                  <span className="text-[17px] font-semibold leading-tight text-blue-500">Volume Based Pricing</span>
+                </li>
+                <li className="flex space-x-3 mb-5 items-center disabled:opacity-75">
+                  <div className='bg-blue-200 h-[26px] w-[26px] flex text-center justify-center rounded-full pt-1'>
+                    <svg xmlns="http://www.w3.org/2000/svg" className='h-3 w-3 mt-1 text-base' viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" fill='#3B82F6' /></svg>
+                  </div>
+                  <span className="text-[17px] font-semibold leading-tight text-blue-500">Analytics and Reporting</span>
+                </li>
+              </ul>
+              <button type="button" className="text-white bg-blue-500 hover:bg-blue-300 font-semibold rounded-3xl text-[17px] px-5 py-3 inline-flex justify-center w-full text-center">Choose plan</button>
             </div>
           </div>
         </div>
+      </section>
+      <section>
+
       </section>
     </>
   )
