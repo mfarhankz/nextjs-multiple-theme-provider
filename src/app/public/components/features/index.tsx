@@ -8,7 +8,7 @@ import Login from '@/app/public/login/page';
 const Features = () => {
   return (
     <>
-      <section className="container mx-auto lg:px-32 feature py-[100px] text-gray-600">
+      <section className="container mx-auto lg:px-32 mt-32 feature  text-gray-600">
         <div>
           <div>
             <div className='bg-[#F8FAE7] mb-9 w-32 text-blue-950 font-medium py-1 px-5 text-[13px] drop-shadow-md rounded-full '>
@@ -19,7 +19,7 @@ const Features = () => {
             <div className='mt-3 md:w-full'>
               <h1 className='text-[#272657]  text-[52px] font-medium leading-none'>
                 Our <span className='before:block before:absolute before:-inset-[-2px] before:-skew-y-0 before:border-b-[20px] before:border-b-pink-200 relative'>
-                  <span className="relative"> powerfull</span>
+                  <span className="relative">powerfull</span>
                 </span> chatbot solutions
               </h1>
             </div>
@@ -34,7 +34,7 @@ const Features = () => {
           <div className="flex flex-wrap">
             <div className="w-full lg:w-1/3 md:w-1/2">
               <div className="border-0 hover:border-1 hover:drop-shadow-lg hover:bg-white rounded-2xl">
-                <div className="p-7 h-[400px]">
+                <div className="p-7">
                   <div className='bg-[#79E2E629] h-[60px] w-[60px] flex justify-center rounded-full items-center'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><g clip-path="url(#clip0_212_180)">
                       <path d="M19.6061 25.6571L16.5697 18.2039L24.3054 6.91778C24.8557 6.11487 23.8865 5.14561 23.0836 5.69593L11.7973 13.4318L4.34416 10.3953C3.59662 10.0908 3.62058 9.02405 4.38107 8.75335L28.826 0.0526451C29.5238 -0.195734 30.1971 0.477567 29.9487 1.17536L21.248 25.6203C20.9773 26.3808 19.9106 26.4047 19.6061 25.6571Z" fill="#79E2E6"></path>
@@ -60,7 +60,7 @@ const Features = () => {
             </div>
             <div className="w-full lg:w-1/3 md:w-1/2">
               <div className="border-0 hover:border-1 hover:drop-shadow-lg hover:bg-white rounded-2xl">
-                <div className="p-7 h-[400px]">
+                <div className="p-7">
                   <div className='bg-[#79E2E629] h-[60px] w-[60px] flex justify-center rounded-full items-center'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><g clip-path="url(#clip0_212_180)">
                       <path d="M19.6061 25.6571L16.5697 18.2039L24.3054 6.91778C24.8557 6.11487 23.8865 5.14561 23.0836 5.69593L11.7973 13.4318L4.34416 10.3953C3.59662 10.0908 3.62058 9.02405 4.38107 8.75335L28.826 0.0526451C29.5238 -0.195734 30.1971 0.477567 29.9487 1.17536L21.248 25.6203C20.9773 26.3808 19.9106 26.4047 19.6061 25.6571Z" fill="#79E2E6"></path>
@@ -86,7 +86,7 @@ const Features = () => {
             </div>
             <div className="w-full lg:w-1/3 md:w-1/2">
               <div className="border-0 hover:border-1 hover:drop-shadow-lg hover:bg-white rounded-2xl">
-                <div className="p-7 h-[400px]">
+                <div className="p-7">
                   <div className='bg-[#79E2E629] h-[60px] w-[60px] flex justify-center rounded-full items-center'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><g clip-path="url(#clip0_212_180)">
                       <path d="M19.6061 25.6571L16.5697 18.2039L24.3054 6.91778C24.8557 6.11487 23.8865 5.14561 23.0836 5.69593L11.7973 13.4318L4.34416 10.3953C3.59662 10.0908 3.62058 9.02405 4.38107 8.75335L28.826 0.0526451C29.5238 -0.195734 30.1971 0.477567 29.9487 1.17536L21.248 25.6203C20.9773 26.3808 19.9106 26.4047 19.6061 25.6571Z" fill="#79E2E6"></path>
@@ -112,7 +112,7 @@ const Features = () => {
             </div>
             <div className="w-full lg:w-1/3 md:w-1/2">
               <div className="border-0 hover:border-1 hover:drop-shadow-lg hover:bg-white rounded-2xl">
-                <div className="p-7 h-[400px]">
+                <div className="p-7">
                   <div className='bg-[#79E2E629] h-[60px] w-[60px] flex justify-center rounded-full items-center'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><g clip-path="url(#clip0_212_180)">
                       <path d="M19.6061 25.6571L16.5697 18.2039L24.3054 6.91778C24.8557 6.11487 23.8865 5.14561 23.0836 5.69593L11.7973 13.4318L4.34416 10.3953C3.59662 10.0908 3.62058 9.02405 4.38107 8.75335L28.826 0.0526451C29.5238 -0.195734 30.1971 0.477567 29.9487 1.17536L21.248 25.6203C20.9773 26.3808 19.9106 26.4047 19.6061 25.6571Z" fill="#79E2E6"></path>
@@ -138,7 +138,7 @@ const Features = () => {
             </div>
             <div className="w-full lg:w-1/3 md:w-1/2">
               <div className="border-0 hover:border-1 hover:drop-shadow-lg hover:bg-white rounded-2xl">
-                <div className="p-7 h-[400px]">
+                <div className="p-7">
                   <div className='bg-[#79E2E629] h-[60px] w-[60px] flex justify-center rounded-full items-center'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><g clip-path="url(#clip0_212_180)">
                       <path d="M19.6061 25.6571L16.5697 18.2039L24.3054 6.91778C24.8557 6.11487 23.8865 5.14561 23.0836 5.69593L11.7973 13.4318L4.34416 10.3953C3.59662 10.0908 3.62058 9.02405 4.38107 8.75335L28.826 0.0526451C29.5238 -0.195734 30.1971 0.477567 29.9487 1.17536L21.248 25.6203C20.9773 26.3808 19.9106 26.4047 19.6061 25.6571Z" fill="#79E2E6"></path>
@@ -164,7 +164,7 @@ const Features = () => {
             </div>
             <div className="w-full lg:w-1/3 md:w-1/2">
               <div className="border-0 hover:border-1 hover:drop-shadow-lg hover:bg-white rounded-2xl">
-                <div className="p-7 h-[400px]">
+                <div className="p-7">
                   <div className='bg-[#79E2E629] h-[60px] w-[60px] flex justify-center rounded-full items-center'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><g clip-path="url(#clip0_212_180)">
                       <path d="M19.6061 25.6571L16.5697 18.2039L24.3054 6.91778C24.8557 6.11487 23.8865 5.14561 23.0836 5.69593L11.7973 13.4318L4.34416 10.3953C3.59662 10.0908 3.62058 9.02405 4.38107 8.75335L28.826 0.0526451C29.5238 -0.195734 30.1971 0.477567 29.9487 1.17536L21.248 25.6203C20.9773 26.3808 19.9106 26.4047 19.6061 25.6571Z" fill="#79E2E6"></path>
@@ -190,7 +190,7 @@ const Features = () => {
             </div>
             <div className="w-full lg:w-1/3 md:w-1/2">
               <div className="border-0 hover:border-1 hover:drop-shadow-lg hover:bg-white rounded-2xl">
-                <div className="p-7 h-[400px]">
+                <div className="p-7">
                   <div className='bg-[#79E2E629] h-[60px] w-[60px] flex justify-center rounded-full items-center'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><g clip-path="url(#clip0_212_180)">
                       <path d="M19.6061 25.6571L16.5697 18.2039L24.3054 6.91778C24.8557 6.11487 23.8865 5.14561 23.0836 5.69593L11.7973 13.4318L4.34416 10.3953C3.59662 10.0908 3.62058 9.02405 4.38107 8.75335L28.826 0.0526451C29.5238 -0.195734 30.1971 0.477567 29.9487 1.17536L21.248 25.6203C20.9773 26.3808 19.9106 26.4047 19.6061 25.6571Z" fill="#79E2E6"></path>
@@ -216,7 +216,7 @@ const Features = () => {
             </div>
             <div className="w-full lg:w-1/3 md:w-1/2">
               <div className="border-0 hover:border-1 hover:drop-shadow-lg hover:bg-white rounded-2xl">
-                <div className="p-7 h-[400px]">
+                <div className="p-7">
                   <div className='bg-[#79E2E629] h-[60px] w-[60px] flex justify-center rounded-full items-center'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><g clip-path="url(#clip0_212_180)">
                       <path d="M19.6061 25.6571L16.5697 18.2039L24.3054 6.91778C24.8557 6.11487 23.8865 5.14561 23.0836 5.69593L11.7973 13.4318L4.34416 10.3953C3.59662 10.0908 3.62058 9.02405 4.38107 8.75335L28.826 0.0526451C29.5238 -0.195734 30.1971 0.477567 29.9487 1.17536L21.248 25.6203C20.9773 26.3808 19.9106 26.4047 19.6061 25.6571Z" fill="#79E2E6"></path>
@@ -242,7 +242,7 @@ const Features = () => {
             </div>
             <div className="w-full lg:w-1/3 md:w-1/2">
               <div className="border-0 hover:border-1 hover:drop-shadow-lg hover:bg-white rounded-2xl">
-                <div className="p-7 h-[400px]">
+                <div className="p-7">
                   <div className='bg-[#79E2E629] h-[60px] w-[60px] flex justify-center rounded-full items-center'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><g clip-path="url(#clip0_212_180)">
                       <path d="M19.6061 25.6571L16.5697 18.2039L24.3054 6.91778C24.8557 6.11487 23.8865 5.14561 23.0836 5.69593L11.7973 13.4318L4.34416 10.3953C3.59662 10.0908 3.62058 9.02405 4.38107 8.75335L28.826 0.0526451C29.5238 -0.195734 30.1971 0.477567 29.9487 1.17536L21.248 25.6203C20.9773 26.3808 19.9106 26.4047 19.6061 25.6571Z" fill="#79E2E6"></path>
@@ -268,7 +268,7 @@ const Features = () => {
             </div>
             <div className="w-full lg:w-1/3 md:w-1/2">
               <div className="border-0 hover:border-1 hover:drop-shadow-lg hover:bg-white rounded-2xl">
-                <div className="p-7 h-[400px]">
+                <div className="p-7">
                   <div className='bg-[#79E2E629] h-[60px] w-[60px] flex justify-center rounded-full items-center'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><g clip-path="url(#clip0_212_180)">
                       <path d="M19.6061 25.6571L16.5697 18.2039L24.3054 6.91778C24.8557 6.11487 23.8865 5.14561 23.0836 5.69593L11.7973 13.4318L4.34416 10.3953C3.59662 10.0908 3.62058 9.02405 4.38107 8.75335L28.826 0.0526451C29.5238 -0.195734 30.1971 0.477567 29.9487 1.17536L21.248 25.6203C20.9773 26.3808 19.9106 26.4047 19.6061 25.6571Z" fill="#79E2E6"></path>
@@ -294,7 +294,7 @@ const Features = () => {
             </div>
             <div className="w-full lg:w-1/3 md:w-1/2">
               <div className="border-0 hover:border-1 hover:drop-shadow-lg hover:bg-white rounded-2xl">
-                <div className="p-7 h-[400px]">
+                <div className="p-7">
                   <div className='bg-[#79E2E629] h-[60px] w-[60px] flex justify-center rounded-full items-center'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><g clip-path="url(#clip0_212_180)">
                       <path d="M19.6061 25.6571L16.5697 18.2039L24.3054 6.91778C24.8557 6.11487 23.8865 5.14561 23.0836 5.69593L11.7973 13.4318L4.34416 10.3953C3.59662 10.0908 3.62058 9.02405 4.38107 8.75335L28.826 0.0526451C29.5238 -0.195734 30.1971 0.477567 29.9487 1.17536L21.248 25.6203C20.9773 26.3808 19.9106 26.4047 19.6061 25.6571Z" fill="#79E2E6"></path>
@@ -320,7 +320,7 @@ const Features = () => {
             </div>
             <div className="w-full lg:w-1/3 md:w-1/2">
               <div className="border-0 hover:border-1 hover:drop-shadow-lg hover:bg-white rounded-2xl">
-                <div className="p-7 h-[400px]">
+                <div className="p-7">
                   <div className='bg-[#79E2E629] h-[60px] w-[60px] flex justify-center rounded-full items-center'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><g clip-path="url(#clip0_212_180)">
                       <path d="M19.6061 25.6571L16.5697 18.2039L24.3054 6.91778C24.8557 6.11487 23.8865 5.14561 23.0836 5.69593L11.7973 13.4318L4.34416 10.3953C3.59662 10.0908 3.62058 9.02405 4.38107 8.75335L28.826 0.0526451C29.5238 -0.195734 30.1971 0.477567 29.9487 1.17536L21.248 25.6203C20.9773 26.3808 19.9106 26.4047 19.6061 25.6571Z" fill="#79E2E6"></path>
@@ -347,8 +347,8 @@ const Features = () => {
           </div>
         </div>
       </section>
-      <section className='lg:px-[180px] pb-[180px]'>
-        <div className='lg:flex'>
+      <section>
+        <div className='lg:flex lg:px-32 pb-[180px]'>
           <div className='w-full p-3 lg:w-1/2'>
             <img src="speech-on-human.png" alt="" />
           </div>
@@ -358,7 +358,7 @@ const Features = () => {
                 WHO WE ARE?
               </div>
               <div className='mb-12 md:w-full'>
-                <h1 className='text-[#272657]  text-[52px] font-medium leading-none'>
+                <h1 className='text-[#272657] text-[52px] font-medium leading-none'>
                   <span className='before:block before:absolute before:-inset-[-8px] before:-skew-y-0 before:border-b-[24px] before:border-b-pink-200 relative'>
                     <span className="relative">Leadingwith</span><br />
                   </span>
@@ -386,10 +386,72 @@ const Features = () => {
           <a className='text-sm font-light ms-1 underline text-[#272657]' href="#">Contact us</a>
         </div>
       </section>
+      <section>
+        <div className=' container mx-auto lg:px-32 lg:flex'>
+          <div className='p-3 lg:w-1/2 mt-5'>
+            <div className='bg-[#F8FAE7] mb-12 w-64 text-blue-950 font-medium py-[10px] text-center px-5 text-[13px] drop-shadow-md rounded-full '>
+              PERSONALIZED EXPERIENCES
+            </div>
+            <div className='mb-12 md:w-full'>
+              <h1 className='text-[#272657]  text-[52px] font-medium leading-none'>
+                <span className='before:block before:absolute before:-inset-[-5px] before:-skew-y-0 before:border-b-[18px] before:border-b-pink-200 relative'>
+                  <span className="relative">Constatly </span><br />
+                </span>
+                improving itself
+              </h1>
+            </div>
+            <div className='flex md:w-full mb-12 items-start lg:mb-12 text-[#64607D] text-xl font-light'>
+              <p>
+                Our chatbots get smarter over time. Learns from user interactions and analyzes data
+              </p>
+            </div>
+            <div>
+              <ul role="list" className="space-y-5 my-7">
+                <li className="flex mb-5 items-center">
+                  <div className='bg-[#FBDCEB] h-[26px] w-[26px] me-[20px] flex text-center justify-center rounded-full pt-1'>
+                    <svg xmlns="http://www.w3.org/2000/svg" className='h-3 w-3 mt-1 text-base' viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" fill='#F070AE' /></svg>
+                  </div>
+                  <span className="text-[17px] font-medium leading-tight text-[#272657]">Learning and Development Ability</span>
+                </li>
+                <li className="flex mb-5 items-center">
+                  <div className='bg-[#FBDCEB] h-[26px] w-[26px] flex me-[20px] text-center justify-center rounded-full pt-1'>
+                    <svg xmlns="http://www.w3.org/2000/svg" className='h-3 w-3 mt-1 text-base' viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" fill='#F070AE' /></svg>
+                  </div>
+                  <span className="text-[17px] font-medium leading-tight text-[#272657]">Ease of Integration</span>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <button className='flex text-white bg-[#1D2840] text-sm py-[18px] px-[30px] rounded-full'>
+                Get Started
+                <svg xmlns="http://www.w3.org/2000/svg" className='mt-1 ms-2' height="1em" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" fill='white' /></svg>
+              </button>
+            </div>
+          </div>
+          <div className='md:flex md:items-center mt-5'>
+            <img className='lg:w-[560px]' src="./human-chat.png" alt="" />
+          </div>
+        </div>
+      </section>
       <section className='plans py-36'>
-        <div className='container mx-auto '>
-          <div className='grid lg:grid-cols-3 mx-5'>
-            <div className="w-full xl:w-[400px] lg:w-[300px] mt-4 p-4 lg:ms-8 px-12 bg-white border border-gray-200 rounded-2xl shadow sm:p-8">
+        <div className='container mx-auto xl:px-28'>
+          <div className='grid lg:grid-cols-4 gap-2 '>
+            <div className=' flex items-center'>
+              <div className="w-full xl:w-[300px] lg:w-full mt-4">
+                <div className='mb-12 md:w-full'>
+                  <h1 className='text-[#272657] text-[52px] font-medium leading-none'>
+                    <span className='before:block before:absolute before:-inset-[-5px] before:-skew-y-0 before:border-b-[18px] before:border-b-pink-200 relative'>
+                      <span className="relative">Pricing </span><br className='md:hidden' />
+                    </span>
+                    plans for you
+                  </h1>
+                </div>
+                <div className='md:flex justify-center'>
+                  <img className='md:w-10/12' src="./credit-card.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="w-full xl:w-[300px] lg:w-full mt-4 p-4  px-12 bg-white border border-gray-200 rounded-2xl shadow sm:p-8">
               <h5 className="mb-4 text-[22px] font-medium text-pink-400">Basic Plan</h5>
               <div className="flex items-baseline text-gray-900">
                 <span className="text-5xl font-medium">$</span>
@@ -427,7 +489,7 @@ const Features = () => {
               </ul>
               <button type="button" className="text-[#F070A4] bg-[#F9A6CE66] hover:bg-pink-100 font-semibold rounded-3xl text-[17px] px-5 py-3 inline-flex justify-center w-full text-center">Choose plan</button>
             </div>
-            <div className="w-full xl:w-[400px] lg:w-[300px] mt-4 p-4 lg:ms-8 px-12 bg-white border border-gray-200 rounded-2xl shadow sm:p-8">
+            <div className="w-full xl:w-[300px] lg:w-full mt-4 p-4  px-12 bg-white border border-gray-200 rounded-2xl shadow sm:p-8">
               <h5 className="mb-4 text-[22px] font-medium text-[#272657]">Standart Plan</h5>
               <div className="flex items-baseline text-gray-900">
                 <span className="text-5xl font-medium">$</span>
@@ -465,7 +527,7 @@ const Features = () => {
               </ul>
               <button type="button" className="text-white bg-[#272657] hover:bg-[#36355f] font-semibold rounded-3xl text-[17px] px-5 py-3 inline-flex justify-center w-full text-center">Choose plan</button>
             </div>
-            <div className="w-full xl:w-[400px] lg:w-[300px] mt-4 p-4 lg:ms-8 bg-white border border-gray-200 rounded-2xl shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+            <div className="w-full xl:w-[300px] lg:w-full mt-4 p-4  bg-white border border-gray-200 rounded-2xl shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
               <h5 className="mb-4 text-[22px] font-medium text-blue-500">Standart Plan</h5>
               <div className="flex items-baseline text-white">
                 <span className="text-5xl font-medium">$</span>
@@ -506,9 +568,7 @@ const Features = () => {
           </div>
         </div>
       </section>
-      <section>
 
-      </section>
     </>
   )
 }

@@ -7,7 +7,7 @@ import Login from '@/app/public/login/page';
 const Header = () => {
   return (
     <section>
-      <div className="header lg:px-32 lg:pb-16 pt-5 lg:h-screen">
+      <div className="header lg:px-32 lg:pb-16 pt-5">
         <div className='lg:mb-20 lg:flex'>
           <div className='w-full p-4 pl-0 lg:w-1/2'>
             <div className='flex justify-center py-4 lg:justify-normal'>
