@@ -8,7 +8,7 @@ import { Menubar } from 'primereact/menubar';
 import { InputText } from 'primereact/inputtext';
 
 function Header() {
-  const start = <Link href="/dashboard" className="flex items-center"><Image src={configuration?.logo} alt="Brand Logo" width={190} height={50} /></Link>;
+  const start = <Link href="/dashboard" className="flex items-center pr-10"><Image src={configuration?.logo} alt="Brand Logo" width={190} height={50} /></Link>;
   const end = <InputText placeholder="Search" type="text" />;
   return (
     <>

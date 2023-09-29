@@ -10,7 +10,7 @@ function Dashboard() {
       <Header />
       <h1>Dashboard</h1>
       <div className="flex flex-wrap gap-3 card justify-content-center">
-        <Button label="Primary" />
+        <Button label="Primary" className="bg-primary border-primary"/>
         <Button label="Secondary" severity="secondary" />
         <Button label="Success" severity="success" />
         <Button label="Info" severity="info" />

@@ -1,7 +1,12 @@
 const ttb = {
-  primary: "#089ea8",
-  secondary: "#00ff00",
-  header: "#6366F1",
+  header: "#2BAFE7",
+  primary: "#6366F1",
+  secondary: "#64748B",
+  success: "#22C55E",
+  info: "#3B82F6",
+  warning: "#F59E0B",
+  help: "#A855F7",
+  danger: "#EF4444",
   routesPublic: [
     { label: "Home", url: "/" },
     { label: "About Us", url: "/public/about-us" },

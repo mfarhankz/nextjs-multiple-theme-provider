@@ -57,6 +57,7 @@ const config = {
     }
   },
   plugins: [],
-  important:true
+  important:true,
+  
 }
 export default config
