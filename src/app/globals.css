@@ -37,3 +37,10 @@ body {
   background-color: transparent;
     background-image: linear-gradient(180deg, #FAFAFA 0%, #FAFAFA00 100%);
 }
+.chatbots{
+  background-color: #FFFFFF;
+    background-image: url(/public/world.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

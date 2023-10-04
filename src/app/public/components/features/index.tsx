@@ -637,6 +637,32 @@ const Features = () => {
           </div>
         </div>
       </section>
+      <section className='chatbots'>
+        <div className="lg:mx-32 p-4">
+          <div className='bg-[#F8FAE7] mb-5 w-72 text-blue-950 font-medium py-[10px] text-center px-5 text-[13px] drop-shadow-md rounded-full '>
+            FREQUENTLY ASKED QUESTIONS 💬
+          </div>
+          <div className='lg:flex justify-between'>
+            <div className='mb-12 lg:w-1/2 md:w-full'>
+              <h1 className='text-[#272657] text-[52px] font-medium leading-none'>
+                We answer your<br />
+                <span className='before:block before:absolute before:-inset-[-5px] before:-skew-y-0 before:border-b-[18px] before:border-b-pink-200 relative'>
+                  <span className="relative">question</span>
+                </span>
+              </h1>
+            </div>
+            <div className='flex lg:w-1/2 md:w-full mb-12 items-start lg:mb-12 text-[#64607D] text-xl font-light'>
+              <p>
+                Our chatbots get smarter over time. Learns from user interactions and analyzes data
+              </p>
+              <img className='h-44 w-40' src="./human-on-the-speech.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div>
+
+        </div>
+      </section>
 
     </>
   )
