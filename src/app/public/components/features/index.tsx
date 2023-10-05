@@ -638,12 +638,12 @@ const Features = () => {
         </div>
       </section>
       <section className='chatbots'>
-        <div className="lg:mx-32 p-4">
+        <div className="lg:mx-32 p-4 pt-12">
           <div className='bg-[#F8FAE7] mb-5 w-72 text-blue-950 font-medium py-[10px] text-center px-5 text-[13px] drop-shadow-md rounded-full '>
             FREQUENTLY ASKED QUESTIONS 💬
           </div>
           <div className='lg:flex justify-between'>
-            <div className='mb-12 lg:w-1/2 md:w-full'>
+            <div className='mb-12 lg:mb-0 lg:w-1/2 md:w-full'>
               <h1 className='text-[#272657] text-[52px] font-medium leading-none'>
                 We answer your<br />
                 <span className='before:block before:absolute before:-inset-[-5px] before:-skew-y-0 before:border-b-[18px] before:border-b-pink-200 relative'>
@@ -651,16 +651,123 @@ const Features = () => {
                 </span>
               </h1>
             </div>
-            <div className='flex lg:w-1/2 md:w-full mb-12 items-start lg:mb-12 text-[#64607D] text-xl font-light'>
+            <div className='flex lg:w-1/2 md:w-full mb-12 items-start lg:mb-0 text-[#64607D] text-xl font-light'>
               <p>
                 Our chatbots get smarter over time. Learns from user interactions and analyzes data
               </p>
-              <img className='h-44 w-40' src="./human-on-the-speech.png" alt="" />
+              <img className='h-44 w-40 bottom-20 relative' src="./human-on-the-speech.png" alt="" />
             </div>
           </div>
         </div>
-        <div>
-
+        <div className='lg:px-32 p-4'>
+          <div className='flex justify-between py-5 border-b mb-2'>
+            <h4 className='text-[#272657] text-xl font-medium'>
+              How can I integrate AI chatbots?
+            </h4>
+            <a href="#" className='flex items-center'>
+              <svg xmlns="http://www.w3.org/2000/svg" className='h-3 ' viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" /></svg>
+            </a>
+          </div>
+          <div className='flex justify-between py-5 border-b mb-2'>
+            <h4 className='text-[#272657] text-xl font-medium'>
+              How do your chatbots interact with users?
+            </h4>
+            <a href="#" className='flex items-center'>
+              <svg xmlns="http://www.w3.org/2000/svg" className='h-3 ' viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" /></svg>
+            </a>
+          </div>
+          <div className='flex justify-between py-5 border-b mb-2'>
+            <h4 className='text-[#272657] text-xl font-medium'>
+              How do our hatbots improve customer support processes?
+            </h4>
+            <a href="#" className='flex items-center'>
+              <svg xmlns="http://www.w3.org/2000/svg" className='h-3 ' viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" /></svg>
+            </a>
+          </div>
+          <div className='flex justify-between py-5 border-b mb-2'>
+            <h4 className='text-[#272657] text-xl font-medium'>
+              What are the benefits of AI chatbots to my business?
+            </h4>
+            <a href="#" className='flex items-center'>
+              <svg xmlns="http://www.w3.org/2000/svg" className='h-3 ' viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" /></svg>
+            </a>
+          </div>
+          <div className='flex justify-between py-5 border-b mb-2'>
+            <h4 className='text-[#272657] text-xl font-medium'>
+              How does the learning process of AI chatbots work?
+            </h4>
+            <a href="#" className='flex items-center'>
+              <svg xmlns="http://www.w3.org/2000/svg" className='h-3 ' viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" /></svg>
+            </a>
+          </div>
+          <div className='flex justify-between py-5 border-b mb-2'>
+            <h4 className='text-[#272657] text-xl font-medium'>
+              How is the data security of our chatbots ensured?
+            </h4>
+            <a href="#" className='flex items-center'>
+              <svg xmlns="http://www.w3.org/2000/svg" className='h-3 ' viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" /></svg>
+            </a>
+          </div>
+          <div className='flex justify-center mt-16 mb-28'>
+            <button className='flex text-white bg-[#1D2840] text-sm py-[18px] px-[30px] rounded-full'>
+              Get Started
+              <svg xmlns="http://www.w3.org/2000/svg" className='mt-1 ms-2' height="1em" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" fill='white' /></svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className='lg:px-32 p-4 lg:flex'>
+          <div className='md:p-10 p-0'>
+            <div className='bg-[#F8FAE7] mb-5 w-44 text-blue-950 font-medium py-[10px] text-center px-5 text-[13px] drop-shadow-md rounded-full '>
+              NEWS & ARTICLES
+            </div>
+            <div className='mb-12 lg:mb-0 lg:w-1/2 md:w-full'>
+              <h1 className='text-[#272657] text-[52px] font-medium leading-none'>
+                <span className='before:block before:absolute before:-inset-[-5px] before:-skew-y-0 before:border-b-[18px] before:border-b-pink-200 relative'>
+                  <span className="relative ">Latest</span>
+                </span>
+                <span className='ml-[10px]'>News</span>
+              </h1>
+            </div>
+            <div className='md:w-full mb-12 mt-5 items-start lg:mb-0 text-[#64607D] text-xl font-light'>
+              <p>
+                You can find the latest information and news about AI chatbot technology.
+              </p>
+            </div>
+            <a href="#" className='flex text-sm hover:underline hover:underline-offset-8 mt-5'>
+              Explore Hub
+              <svg xmlns="http://www.w3.org/2000/svg" className='mt-1 ms-2' height="1em" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" /></svg>
+            </a>
+          </div>
+          <div className='md:flex gap-5 p-5'>
+            <div className='lg:w-80 p-4'>
+              <div className='mb-10'>
+                <img src="./Rectangle-18921.jpeg" alt="" />
+              </div>
+              <div>
+                <a href="#" className='text-sm text-[#64607D] rounded-full py-2 px-4 bg-[#ECECEF] font-medium'>
+                  Animation
+                </a>
+                <h4 className='mt-7 text-xl text-[#272657]'>
+                  AI-Powered Chatbot Banana Answers Customer Questions Instantly
+                </h4>
+              </div>
+            </div>
+            <div className='lg:w-80 p-4'>
+              <div className='mb-10'>
+                <img src="./Rectangle-18922.jpeg" alt="" />
+              </div>
+              <div>
+                <a href="#" className='text-sm text-[#64607D] rounded-full py-2 px-4 bg-[#ECECEF] font-medium'>
+                  AI
+                </a>
+                <h4 className='mt-7 text-xl text-[#272657]'>
+                  Innovative Developments in AI Chatbot Technologies
+                </h4>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 

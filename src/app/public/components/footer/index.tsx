@@ -4,7 +4,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-      <footer>
+      <footer className='pt-44'>
         <div className="lg:px-28 lg:flex justify-between border-gray-300 border-b pb-9 mx-4">
           <div>
             <a className="flex items-center w-40 font-medium text-gray-900 title-font">
