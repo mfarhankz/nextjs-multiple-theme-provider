@@ -4,10 +4,10 @@ import React from 'react'
 function Footer() {
   return (
     <>
-      <footer className='pt-44'>
+      <footer className='py-32'>
         <div className="lg:px-28 lg:flex justify-between border-gray-300 border-b pb-9 mx-4">
           <div>
-            <a className="flex items-center w-40 font-medium text-gray-900 title-font">
+            <a className="flex mt-3 items-center w-36 font-medium text-gray-900 title-font">
               <img src="./logo-rgv2.png" alt="" />
             </a>
           </div>
