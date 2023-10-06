@@ -387,7 +387,7 @@ const Features = () => {
         </div>
       </section>
       <section>
-        <div className=' container mx-auto lg:px-32 lg:flex'>
+        <div className=' container mt-5 mx-auto lg:px-32 lg:flex'>
           <div className='p-3 lg:w-1/2 mt-5'>
             <div className='bg-[#F8FAE7] mb-12 w-64 text-blue-950 font-medium py-[10px] text-center px-5 text-[13px] drop-shadow-md rounded-full '>
               PERSONALIZED EXPERIENCES
@@ -432,9 +432,7 @@ const Features = () => {
             <img className='lg:w-[560px]' src="./human-chat.png" alt="" />
           </div>
         </div>
-      </section>
-      <section>
-        <div className=' container mx-auto lg:px-32 lg:flex'>
+        <div className=' container mt-5 mx-auto lg:px-32 lg:flex'>
           <div className='md:flex md:items-center mt-5'>
             <img className='lg:w-[560px]' src="./human-chat.png" alt="" />
           </div>
@@ -479,9 +477,7 @@ const Features = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section>
-        <div className=' container mx-auto lg:px-32 lg:flex'>
+        <div className=' container mt-5 mx-auto lg:px-32 lg:flex'>
           <div className='p-3 lg:w-1/2 mt-5'>
             <div className='bg-[#F8FAE7] mb-12 w-64 text-blue-950 font-medium py-[10px] text-center px-5 text-[13px] drop-shadow-md rounded-full '>
               PERSONALIZED EXPERIENCES
