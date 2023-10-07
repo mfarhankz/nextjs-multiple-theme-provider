@@ -4,7 +4,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-      <footer className='py-32'>
+      <footer className='lg:py-32 py-10'>
         <div className="lg:px-28 lg:flex justify-between border-gray-300 border-b pb-9 mx-4">
           <div>
             <a className="flex mt-3 items-center w-36 font-medium text-gray-900 title-font">
