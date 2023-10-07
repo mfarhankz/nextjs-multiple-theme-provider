@@ -6,6 +6,8 @@ import Features from '../components/features';
 import Tool from '../components/tool/tool';
 import Plan from '../components/plan/plan';
 import News from '../components/news/news';
+import Chatbot from '../components/chatbot/chatbot';
+import Intro from '../components/intro/intro';
 
 function HomeComponent() {
   const isTTB = process.env.VERSION === 'ttb';
@@ -15,8 +17,10 @@ function HomeComponent() {
       <Navbar />
       <Header />
       <Features />
+      <Intro />
       <Plan />
       <Tool />
+      <Chatbot />
       <News />
       <Footer />
     </div>
